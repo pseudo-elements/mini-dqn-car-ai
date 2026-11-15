@@ -3,7 +3,7 @@ import numpy as np
 import pygame
 
 class Track:
-    def __init__(self, track_image_path='track.png', car_image_path='car.png', window_size=(800, 600)):
+    def __init__(self, track_image_path='images/track.png', car_image_path='images/car.png', window_size=(800, 600)):
         self.window_size = window_size
         
         # Load the track image
